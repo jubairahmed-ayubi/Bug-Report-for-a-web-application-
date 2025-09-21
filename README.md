@@ -13,14 +13,14 @@ This repository contains:
 
 ## Table of Contents
 
-1. [Summary](#summary)  
-2. [Where the Report Is](#where-the-report-is)  
-3. [How to Reproduce & Use the Spreadsheet](#how-to-reproduce--use-the-spreadsheet)  
-4. [Severity Definitions](#severity-definitions)  
-5. [How to Contribute](#how-to-contribute)  
-6. [Issue Template](#issue-template)  
-7. [Suggested Labels & Triage Checklist](#suggested-labels--triage-checklist)  
-8. [Quick Links / Contact](#quick-links--contact)  
+1) Summary  
+2) Where the report is  
+3) How to reproduce & use the spreadsheet  
+4) Severity definitions  
+5) How to Contribute   ✅ (new, paste my table + code block here)  
+6) Issue Template  
+7) Suggested Labels & Triage Checklist  
+8) Quick Links / Contact  ✅ (new, paste my table here)  
 
 ---
 
@@ -69,37 +69,44 @@ When you confirm a bug:
 | **Low** | Cosmetic or content issues (e.g., spelling mistakes, minor UI irregularities) |
 
 Use these definitions consistently when triaging bugs.  
+---
+
 ## 5) How to Contribute
 
-### Using GitHub Web
-1. Go to repo → **Add file → Upload files**.  
-2. Drag & drop updated `Bug_Report.xlsx` or edit `README.md`.  
-3. Commit changes.  
+You can contribute either through the **GitHub Web Interface** or via the **Git CLI**.
 
-### Using Git CLI
-bash
-  # clone
-  git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
-  -cd Bug-Report-for-a-web-application-
-  
-  -# create branch
-  -git checkout -b docs/bug-report
-  
-  -# add new/updated files
-  -git add Bug_Report.xlsx README.md
-  
- - # commit
- - git commit -m "Update bug report and README"
-  
-  -# push & open PR
-  -git push -u origin docs/bug-report
----
+### 📌 Option A — GitHub Web
+
+| Step | Action |
+|------|--------|
+| 1 | Go to your repository on GitHub |
+| 2 | Click **Add file → Upload files** |
+| 3 | Drag & drop the updated `Bug_Report.xlsx` or edit `README.md` |
+| 4 | Add a commit message and click **Commit changes** |
+
 ---
 
-## 8) Quick Links / Contact
+### 📌 Option B — Git CLI
 
-- **Test site:** [https://with-bugs.practicesoftwaretesting.com](https://with-bugs.practicesoftwaretesting.com)  
-- **Author / QA:** Jubair Ahmed  
-- **GitHub profile:** [https://github.com/jubairahmed-ayubi](https://github.com/jubairahmed-ayubi)
+```bash
+# 1. Clone the repository
+git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
+cd Bug-Report-for-a-web-application-
 
+# 2. Create a new branch
+git checkout -b docs/bug-report
+
+# 3. Add new/updated files
+git add Bug_Report.xlsx README.md
+
+# 4. Commit changes
+git commit -m "Update bug report and README"
+
+# 5. Push branch & open PR
+git push -u origin docs/bug-report
+| Resource           | Link                                                                                           |
+| ------------------ | ---------------------------------------------------------------------------------------------- |
+| **Test site**      | [https://with-bugs.practicesoftwaretesting.com](https://with-bugs.practicesoftwaretesting.com) |
+| **Author / QA**    | Jubair Ahmed                                                                                   |
+| **GitHub Profile** | [https://github.com/jubairahmed-ayubi](https://github.com/jubairahmed-ayubi)                   |
 
