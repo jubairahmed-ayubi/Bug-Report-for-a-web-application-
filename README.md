@@ -88,25 +88,27 @@ You can contribute either through the **GitHub Web Interface** or via the **Git 
 
 ### 📌 Option B — Git CLI
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
-cd Bug-Report-for-a-web-application-
+      ```bash
+      # 1. Clone the repository
+      git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
+      cd Bug-Report-for-a-web-application-
+      
+      # 2. Create a new branch
+      git checkout -b docs/bug-report
+      
+      # 3. Add new/updated files
+      git add Bug_Report.xlsx README.md
+      
+      # 4. Commit changes
+      git commit -m "Update bug report and README"
+      
+      # 5. Push branch & open PR
+       git push -u origin docs/bug-report
 
-# 2. Create a new branch
-git checkout -b docs/bug-report
-
-# 3. Add new/updated files
-git add Bug_Report.xlsx README.md
-
-# 4. Commit changes
-git commit -m "Update bug report and README"
-
-# 5. Push branch & open PR
-git push -u origin docs/bug-report
 | Resource           | Link                                                                                           |
 | ------------------ | ---------------------------------------------------------------------------------------------- |
 | **Test site**      | [https://with-bugs.practicesoftwaretesting.com](https://with-bugs.practicesoftwaretesting.com) |
 | **Author / QA**    | Jubair Ahmed                                                                                   |
 | **GitHub Profile** | [https://github.com/jubairahmed-ayubi](https://github.com/jubairahmed-ayubi)                   |
+  ---
 
