@@ -35,11 +35,9 @@ This repository contains:
 
 ## 2) Where the Report Is
 
-The Excel file should be in the **repository root** so GitHub can preview it:  
+The Excel file is stored in this repository and is also available via SharePoint:  
+[Download Bug Report (Excel)](https://mistedu-my.sharepoint.com/:x:/g/personal/202014018_student_mist_ac_bd/EQA_m_ADAf1Ou7XYkCuuoxMBJIqzNsZ6njjQweKa_GkCng?e=wHl1EK)
 
-[Bug_Report.xlsx](./Bug_Report.xlsx)  
-
-> If you prefer a `docs/` folder, adjust the path in links accordingly.
 
 ---
 
@@ -71,7 +69,30 @@ When you confirm a bug:
 | **Low** | Cosmetic or content issues (e.g., spelling mistakes, minor UI irregularities) |
 
 Use these definitions consistently when triaging bugs.  
+## 5) How to Contribute
 
+### Using GitHub Web
+1. Go to repo → **Add file → Upload files**.  
+2. Drag & drop updated `Bug_Report.xlsx` or edit `README.md`.  
+3. Commit changes.  
+
+### Using Git CLI
+```bash
+# clone
+git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
+cd Bug-Report-for-a-web-application-
+
+# create branch
+git checkout -b docs/bug-report
+
+# add new/updated files
+git add Bug_Report.xlsx README.md
+
+# commit
+git commit -m "Update bug report and README"
+
+# push & open PR
+git push -u origin docs/bug-report
 ---
 ---
 
