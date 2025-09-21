@@ -80,19 +80,19 @@ Use these definitions consistently when triaging bugs.
 bash
   # clone
   git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
-  cd Bug-Report-for-a-web-application-
+  -cd Bug-Report-for-a-web-application-
   
-  # create branch
-  git checkout -b docs/bug-report
+  -# create branch
+  -git checkout -b docs/bug-report
   
-  # add new/updated files
-  git add Bug_Report.xlsx README.md
+  -# add new/updated files
+  -git add Bug_Report.xlsx README.md
   
-  # commit
-  git commit -m "Update bug report and README"
+ - # commit
+ - git commit -m "Update bug report and README"
   
-  # push & open PR
-  git push -u origin docs/bug-report
+  -# push & open PR
+  -git push -u origin docs/bug-report
 ---
 ---
 
