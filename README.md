@@ -73,5 +73,12 @@ When you confirm a bug:
 Use these definitions consistently when triaging bugs.  
 
 ---
+---
+
+## 8) Quick Links / Contact
+
+- **Test site:** [https://with-bugs.practicesoftwaretesting.com](https://with-bugs.practicesoftwaretesting.com)  
+- **Author / QA:** Jubair Ahmed  
+- **GitHub profile:** [https://github.com/jubairahmed-ayubi](https://github.com/jubairahmed-ayubi)
 
 
