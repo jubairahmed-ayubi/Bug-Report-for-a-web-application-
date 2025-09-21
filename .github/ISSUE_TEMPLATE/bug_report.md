@@ -4,10 +4,10 @@ about: Report a bug found while testing the site
 labels: bug
 ---
 
-**Bug ID:** (leave blank — assigned by QA)
-**Module / Area:**
-**Environment:** (staging / production / local)
-**Browser & OS:**
+**Bug ID:** (leave blank — assigned by QA)  
+**Module / Area:**  
+**Environment:** (staging / production / local)  
+**Browser & OS:**  
 **Reported by:** Jubair
 
 ### Steps to Reproduce
