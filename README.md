@@ -77,7 +77,7 @@ Use these definitions consistently when triaging bugs.
 3. Commit changes.  
 
 ### Using Git CLI
-```bash
+--```bash
 # clone
 git clone https://github.com/jubairahmed-ayubi/Bug-Report-for-a-web-application-.git
 cd Bug-Report-for-a-web-application-
